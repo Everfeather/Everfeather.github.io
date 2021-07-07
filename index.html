@@ -1,9 +1,39 @@
+<!website june - 2021>
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="photo_dump_style.css">
         
+             
     </head>
-    <body>
-        Hello world
+    <body onload = "onLoad()">
+        <div id="myDIV" class="grid-container">
+            <div id="item1" class="grid-item">
+                <p>The website</p>
+
+            </div>
+            <div id="item2" class="grid-item">
+                <p id = "suggestTags"></p>
+                <input type = "text" id = "searchbar" value = "search...">
+                <button id = "searchButton"  onClick = "searchTags()">search</button>
+                
+                
+            </div>
+            <div id="item3" class="grid-item">
+                    <button class = "button button1" onClick = "buttonDecrease()">previous</button>
+                    <button class = "button button2" onClick = "buttonIncrease()">next</button>
+            </div>
+            <div id = "item4" class = "grid-item">
+                <!write about yourself>
+                <p>construction in progress</p>
+            </div>
+            <div id = "item5" class = "grid-item">
+                <!contact info>
+                <p>construction in progress</p>
+            </div>
+        </div>
+        <script src = "photo_script_2.js"\>
+            
+        </script>
     </body>
 </html>
